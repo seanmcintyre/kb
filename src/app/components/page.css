@@ -1,0 +1,53 @@
+.page main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0rem;
+
+    @media (min-width: 1000px) {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: calc(1rem + 3.25vw);
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        /* font-size: calc(0.675rem + 0.75vw); */
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        /* font-size: calc(0.675rem + 0.75vw); */
+        margin-bottom: 1rem;
+    }
+
+    header {
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.125rem;
+
+        input {
+            margin: 1.5rem 0;
+            height: 2.5rem;
+            max-width: 50%;
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    h3 {
+        line-height: 1.875;
+        font-size: calc(0.675rem + 0.75vw);
+        letter-spacing: 0.0125rem;
+        font-weight: 360;
+        background-color: color-mix(in srgb, var(--background), transparent 25%);
+        border-radius: 0.2rem;
+        max-width: 75%;
+    }
+}

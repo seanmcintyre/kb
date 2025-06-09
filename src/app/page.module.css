@@ -56,6 +56,11 @@
   font-weight: 600;
 }
 
+main section {
+  display: block;
+  border: 1px solid white;
+}
+
 .ctas {
   display: flex;
   gap: 16px;
@@ -68,10 +73,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;

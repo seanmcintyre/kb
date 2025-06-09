@@ -1,0 +1,20 @@
+body > nav {
+  .appearance {
+    margin-left: auto;
+    background-color: var(--accent);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--flat);
+    cursor: pointer;
+    transition: 80ms ease-in-out;
+
+    &:hover {
+      scale: 1.15;
+    }
+
+    &:active {
+      scale: 0.975;
+    }
+  }
+}

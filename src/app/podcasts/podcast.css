@@ -1,0 +1,51 @@
+.podcasts img {
+  max-width: 30rem;
+  margin: 3rem 0;
+}
+
+.podcasts {
+  main > div {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .megaphone-embed {
+    flex-grow: 2;
+    background-color: #191d23;
+    height: 100%;
+  }
+
+  iframe {
+    border: 0;
+    /* border-bottom: 5px solid red; */
+  }
+
+  .podcast-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 0.5rem;
+
+      font-family: monospace;
+      text-transform: uppercase;
+    }
+
+    a {
+      border: 1px solid var(--foreground);
+      width: 6rem;
+      height: 6rem;
+      border-radius: 0.5rem;
+      padding: 0.25rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

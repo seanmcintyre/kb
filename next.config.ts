@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   output: 'export',
-  distDir: 'dist',
+  distDir: 'docs',
 };
 
 export default nextConfig;

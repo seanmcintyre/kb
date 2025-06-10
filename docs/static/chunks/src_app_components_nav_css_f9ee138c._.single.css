@@ -1,0 +1,21 @@
+/* [project]/src/app/components/nav.css [app-client] (css) */
+body > nav .appearance {
+  background-color: var(--accent);
+  border: 2px solid var(--flat);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+  transition: all 80ms ease-in-out;
+}
+
+body > nav .appearance:hover {
+  scale: 1.15;
+}
+
+body > nav .appearance:active {
+  scale: .975;
+}
+
+/*# sourceMappingURL=src_app_components_nav_css_f9ee138c._.single.css.map*/

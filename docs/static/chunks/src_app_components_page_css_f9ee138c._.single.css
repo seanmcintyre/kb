@@ -1,0 +1,52 @@
+/* [project]/src/app/components/page.css [app-client] (css) */
+.page main {
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+  display: flex;
+}
+
+@media (width >= 1000px) {
+  .page main {
+    padding: 2rem;
+  }
+}
+
+.page main h1 {
+  margin-bottom: 1rem;
+  font-size: calc(1rem + 3.25vw);
+}
+
+.page main h2, .page main h3 {
+  margin-bottom: 1rem;
+}
+
+.page main header {
+  flex-direction: column;
+  gap: .125rem;
+  padding: 2rem 3rem;
+  display: flex;
+}
+
+.page main header input {
+  max-width: 50%;
+  height: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.page main header div {
+  margin: 0;
+  padding: 0;
+}
+
+.page main h3 {
+  letter-spacing: .0125rem;
+  background-color: color-mix(in srgb, var(--background), transparent 25%);
+  border-radius: .2rem;
+  max-width: 75%;
+  font-size: calc(.675rem + .75vw);
+  font-weight: 360;
+  line-height: 1.875;
+}
+
+/*# sourceMappingURL=src_app_components_page_css_f9ee138c._.single.css.map*/

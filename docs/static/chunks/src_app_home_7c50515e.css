@@ -1,0 +1,212 @@
+/* [project]/src/app/home.css [app-client] (css) */
+.banner {
+  flex-direction: column;
+  padding: 2rem 2rem 1rem;
+  display: flex;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: calc(1rem + 3.25vw);
+}
+
+.banner h2 {
+  max-width: 67%;
+  font-size: calc(1rem + 3.25vw);
+  font-weight: 300;
+  display: block;
+}
+
+main header {
+  color: var(--accent);
+}
+
+main header section {
+  max-width: 58rem;
+  padding: 2rem 1rem;
+}
+
+main header section p {
+  letter-spacing: .0125rem;
+  background-color: color-mix(in srgb, var(--background), transparent 25%);
+  border-radius: .2rem;
+  font-size: calc(.675rem + .75vw);
+  font-weight: 360;
+  line-height: 1.875;
+}
+
+div.patreon {
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  display: flex;
+}
+
+div.patreon h4 {
+  letter-spacing: .025rem;
+  font-size: calc(.675rem + .75vw);
+  font-weight: 700;
+  line-height: 1.875;
+}
+
+svg.patreon {
+  width: 2.5rem;
+}
+
+svg.patreon path {
+  fill: var(--accent);
+}
+
+main .featured {
+  gap: 2rem;
+  max-width: 100%;
+  margin-left: auto;
+  padding: 8rem 1rem 1rem;
+  position: relative;
+}
+
+main .featured > h3 {
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--flat);
+  font-family: monospace;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+}
+
+main .featured:after {
+  content: "";
+  background-color: color-mix(in srgb, var(--flat), var(--veil));
+  z-index: -1;
+  width: 200vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 3rem;
+  left: -100%;
+}
+
+main .featured > div {
+  width: calc(100% - 1rem);
+  padding: 1rem;
+}
+
+@media (width >= 1000px) {
+  main .featured {
+    max-width: 75%;
+    padding: 8rem 1rem 1rem;
+  }
+
+  main .featured > div {
+    width: calc(50% - 2rem);
+  }
+}
+
+.headshot-mobile {
+  border-radius: 50%;
+  order: 1;
+  max-width: 20rem;
+  margin: 1rem 2rem;
+}
+
+.headshot {
+  border-radius: 50%;
+  order: 1;
+  max-width: 20rem;
+  margin: 1rem auto;
+  display: none;
+}
+
+@media (width >= 1000px) {
+  .headshot-mobile {
+    display: none;
+  }
+
+  .headshot {
+    z-index: -1;
+    order: 2;
+    width: calc(45vw - 3rem);
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: -5rem;
+    transform: translateY(-40%);
+  }
+}
+
+main h1 {
+  font-size: calc(2rem + 4vw);
+}
+
+main section {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+main section h3 {
+  width: 100%;
+  font-size: calc(1rem + 2vw);
+  display: block;
+}
+
+main h1 + section {
+  margin-bottom: 4rem;
+}
+
+main section h4 {
+  width: 100%;
+  color: var(--accent);
+  font-size: calc(.75rem + 1.5vw);
+  display: block;
+}
+
+main section h4 a {
+  color: var(--accent);
+}
+
+main section > div {
+  padding: .75rem .5rem .5rem 0;
+}
+
+main section a {
+  color: var(--COLOR--primary);
+}
+
+main section div {
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+}
+
+main section h4 + div > p {
+  letter-spacing: .0125rem;
+  margin: 1rem 0 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 360;
+  line-height: 1.675;
+}
+
+main section h4 + div > p + span {
+  letter-spacing: .1rem;
+  opacity: .75;
+  border: 1px solid #fff3;
+  border-radius: .375rem;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-left: auto;
+  padding: .25rem .5rem .25rem .6125rem;
+  font-family: monospace;
+  font-size: .875rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+
+/*# sourceMappingURL=src_app_home_7c50515e.css.map*/

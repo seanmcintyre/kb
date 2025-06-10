@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/nav.css"],"sourcesContent":["body > nav {\n  .appearance {\n    margin-left: auto;\n    background-color: var(--accent);\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    border: 2px solid var(--flat);\n    cursor: pointer;\n    transition: 80ms ease-in-out;\n\n    &:hover {\n      scale: 1.15;\n    }\n\n    &:active {\n      scale: 0.975;\n    }\n  }\n}\n"],"names":[],"mappings":"AACE;;;;;;;;;;;AAUE;;;;AAIA"}}]
+}

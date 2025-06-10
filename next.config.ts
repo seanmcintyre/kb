@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
   },
   output: "export",
   distDir: "docs",
-  basePath: process.env.NODE_ENV === "development" ? "" : "/kb",
+  basePath: "/kb",
+  assetPrefix: "/kb",
 };
 
 export default nextConfig;

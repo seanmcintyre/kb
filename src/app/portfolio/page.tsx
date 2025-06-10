@@ -41,7 +41,7 @@ export default function Portfolio() {
               source
             </button>
           </div>
-          <img className="headshot" src="/portfolio.jpg" />
+          <img className="headshot" src="/kb/portfolio.jpg" />
         </header>
         <div key={sortBy}>
           {sortedArticles.map(

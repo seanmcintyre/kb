@@ -5,11 +5,11 @@ import "./nav.css";
 export function Nav() {
   return (
     <nav className="nav">
-      <a href="/">Home</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/podcasts">Podcasts</a>
-      <a href="/engagements">Speaking Engagements</a>
-      <a href="/contact">Contact</a>
+      <a href="/kb">Home</a>
+      <a href="/kb/portfolio">Portfolio</a>
+      <a href="/kb/podcasts">Podcasts</a>
+      <a href="/kb/engagements">Speaking Engagements</a>
+      <a href="/kb/contact">Contact</a>
       <div className="appearance" onClick={onClick} />
     </nav>
   );

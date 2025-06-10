@@ -11,14 +11,14 @@ export default function Podcasts() {
       description="The pearl clutching about “cancel culture” and “censorship” has become louder and more absurd while also getting more and more play in the media. Journalists Katelyn Burns and Christine Grimaldi see this panic for what it is though: a grift. They take a closer look at these temper tantrums, dispelling myths, laughing at the most outrageous takes, and shedding light on which perspectives are actually being suppressed and left out of the conversation.">
       <main>
         {/* <header>
-          <img className="upper" src="/cmd.png" />
+          <img className="upper" src="/kb/cmd.png" />
         </header> */}
         <div>
           {/* cancelmedaddy@gmail.com */}
 
           <h3 className="llink">
             <div className="placeholder-icon" />
-            <a href="/contact">
+            <a href="/kb/contact">
               [[Reach out for podcast guest opportunities!]]
             </a>
           </h3>

@@ -4,18 +4,26 @@ export default function Home() {
   return (
     <div>
       <main>
-        <img className="headshot-mobile" src="/kb1.jpeg" />
+        <img className="headshot-mobile" src="/kb/kb1.jpeg" />
         <div className="banner">
           <h1>Katelyn Burns</h1>
-          <h2>
-            Freelance journalist and podcaster.
-          </h2>
+          <h2>Freelance journalist and podcaster.</h2>
         </div>
         <header>
-          <img className="headshot" src="/kb1.jpeg" />
+          <img className="headshot" src="/kb/kb1.jpeg" />
           <section>
             <p>
-              Katelyn covers trans issues, politics, and culture in her MSNBC and Xtra columns and she's a co-host of the Cancel Me, Daddy podcast. She was previously the first ever openly trans Capitol Hill reporter in US history and she has bylines in the Washington Post, Politico, Vice, Esquire, Playboy, Teen Vogue, the San Francisco Chronicle, and many other major publications. Best known for her in-depth coverage of trans politics, she also covered the DC protests against Brett Kavanaugh's SCOTUS nomination and occasionally gets to write about her hobby, video gaming.
+              Katelyn covers trans issues, politics, and culture in
+              her MSNBC and Xtra columns and she's a co-host of the
+              Cancel Me, Daddy podcast. She was previously the first
+              ever openly trans Capitol Hill reporter in US history
+              and she has bylines in the Washington Post, Politico,
+              Vice, Esquire, Playboy, Teen Vogue, the San Francisco
+              Chronicle, and many other major publications. Best known
+              for her in-depth coverage of trans politics, she also
+              covered the DC protests against Brett Kavanaugh's SCOTUS
+              nomination and occasionally gets to write about her
+              hobby, video gaming.
             </p>
           </section>
           <div className="patreon">

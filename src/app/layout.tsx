@@ -32,7 +32,7 @@ export default function RootLayout({
         {children}
         <footer>
           <nav>
-            <a href="/contact">Contact</a>
+            <a href="/kb/contact">Contact</a>
           </nav>
           <nav>
             <a href="#">

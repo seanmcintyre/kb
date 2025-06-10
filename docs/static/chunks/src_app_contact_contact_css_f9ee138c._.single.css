@@ -1,0 +1,106 @@
+/* [project]/src/app/contact/contact.css [app-client] (css) */
+.contact main {
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+}
+
+.contact main h1 {
+  font-size: calc(1rem + 3.25vw);
+}
+
+.contact main header {
+  flex-direction: column;
+  gap: .125rem;
+  padding: 2rem 3rem 0;
+  display: flex;
+}
+
+.contact main header input {
+  max-width: 50%;
+  height: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.contact main header div {
+  margin: 0;
+  padding: 0;
+}
+
+.contact main h5 {
+  letter-spacing: .015rem;
+  font-size: calc(1.125rem + .875vw);
+  font-weight: 520;
+  line-height: 1.875;
+  display: block;
+}
+
+.contact main h5 span {
+  letter-spacing: .0675rem;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: calc(.675rem + .25vw);
+  font-weight: 320;
+  line-height: 1.4;
+  display: block;
+}
+
+.contact main .placeholder-icon {
+  background-color: var(--foreground);
+  color: var(--background);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1.5rem;
+  padding: .5rem;
+  display: flex;
+}
+
+.contact main .headshot {
+  border-radius: .5rem;
+  order: 1;
+  max-width: 20rem;
+  margin: 1rem auto;
+  display: none;
+}
+
+.contact main section {
+  width: 100%;
+  padding-left: 1.5rem;
+  display: block;
+}
+
+.contact main section > div {
+  border-bottom: 1px solid color-mix(in srgb, var(--foreground), transparent 75%);
+  align-items: center;
+  gap: .5rem;
+  width: 100%;
+  margin-bottom: 2.25rem;
+  padding-bottom: .75rem;
+  display: flex;
+}
+
+@media (width >= 1000px) {
+  .contact main .headshot-mobile {
+    display: none;
+  }
+
+  .contact main .headshot {
+    z-index: -1;
+    order: 2;
+    width: calc(50vw - 3rem);
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: -1rem;
+    transform: translateY(-50%);
+  }
+}
+
+.contact main div, .contact main div span {
+  display: block;
+}
+
+/*# sourceMappingURL=src_app_contact_contact_css_f9ee138c._.single.css.map*/

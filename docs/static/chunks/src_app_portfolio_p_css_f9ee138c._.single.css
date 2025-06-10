@@ -1,0 +1,133 @@
+/* [project]/src/app/portfolio/p.css [app-client] (css) */
+.portfolio main {
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+}
+
+.portfolio main h1 {
+  font-size: calc(1rem + 3.25vw);
+}
+
+.portfolio main .svg-logo {
+  height: .75rem;
+  margin-left: auto;
+  display: block;
+}
+
+.portfolio main .svg-logo path {
+  fill: var(--foreground);
+}
+
+.portfolio main .svg-logo.vox {
+  height: 1rem;
+}
+
+.portfolio main header {
+  flex-direction: column;
+  gap: .125rem;
+  padding: 2rem 3rem;
+  display: flex;
+}
+
+.portfolio main header input {
+  max-width: 50%;
+  height: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.portfolio main header div {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio main .headshot {
+  border-radius: .5rem;
+  order: 1;
+  max-width: 20rem;
+  margin: 1rem auto;
+  display: none;
+}
+
+@media (width >= 1000px) {
+  .portfolio main .headshot-mobile {
+    display: none;
+  }
+
+  .portfolio main .headshot {
+    z-index: -1;
+    order: 2;
+    width: calc(50vw - 3rem);
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: -1rem;
+    transform: translateY(-50%);
+  }
+}
+
+.portfolio main div, .portfolio main div span {
+  display: block;
+}
+
+.portfolio .article {
+  border-bottom: 1px solid #ffffff0d;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  animation: .27s ease-in-out both fadeIn;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio button {
+  color: #fff;
+  background-color: #0000;
+  border: 1px solid #fff3;
+  border-radius: .2rem;
+  margin: 1rem;
+  padding: .5rem 1rem;
+}
+
+.portfolio .article img.b {
+  object-fit: cover;
+  filter: blur(.75rem) saturate(150%);
+  opacity: .67;
+  border-radius: 4px;
+  width: 200px;
+  max-height: 77px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.portfolio .article img.a {
+  object-fit: cover;
+  filter: blur(4rem) saturate(400%);
+  opacity: .9;
+  border-radius: 4px;
+  width: 200px;
+  max-height: 77px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-.67rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=src_app_portfolio_p_css_f9ee138c._.single.css.map*/

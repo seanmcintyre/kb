@@ -1,0 +1,96 @@
+/* [project]/src/app/engagements/engagements.css [app-client] (css) */
+.engagements main {
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+}
+
+.engagements main h1 {
+  font-size: calc(1rem + 3.25vw);
+}
+
+.engagements main header {
+  flex-direction: column;
+  gap: .125rem;
+  padding: 2rem 3rem;
+  display: flex;
+}
+
+.engagements main header input {
+  max-width: 50%;
+  height: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.engagements main header div {
+  margin: 0;
+  padding: 0;
+}
+
+.engagements main section {
+  padding: 0 3rem;
+}
+
+.engagements main .headshot {
+  border-radius: .5rem;
+  order: 1;
+  max-width: 20rem;
+  margin: 1rem auto;
+  display: none;
+}
+
+.engagements main h3 {
+  letter-spacing: .0125rem;
+  background-color: color-mix(in srgb, var(--background), transparent 25%);
+  border-radius: .2rem;
+  max-width: 75%;
+  font-size: calc(.675rem + .75vw);
+  font-weight: 360;
+  line-height: 1.875;
+}
+
+.engagements main h4 {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+}
+
+.engagements main h5 {
+  letter-spacing: .015rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--foreground), transparent 75%);
+  margin-bottom: 2.25rem;
+  padding-bottom: .75rem;
+  font-size: calc(1.125rem + .875vw);
+  font-weight: 520;
+  line-height: 1.875;
+  display: block;
+}
+
+.engagements main h5 span {
+  letter-spacing: .01rem;
+  font-size: calc(.75rem + .75vw);
+  font-weight: 320;
+  line-height: 1.4125;
+  display: block;
+}
+
+@media (width >= 1000px) {
+  .engagements main .headshot-mobile {
+    display: none;
+  }
+
+  .engagements main .headshot {
+    z-index: -1;
+    order: 2;
+    width: calc(50vw - 3rem);
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: -1rem;
+    transform: translateY(-50%);
+  }
+}
+
+/*# sourceMappingURL=src_app_engagements_engagements_css_f9ee138c._.single.css.map*/

@@ -15,15 +15,27 @@ export default function Podcasts() {
         </header> */}
         <div>
           {/* cancelmedaddy@gmail.com */}
-          <p>Reach out for podcast guest opportunities!</p>
-          <div>
-            <span>podcast patreon feature</span>
+
+          <h3 className="llink">
+            <div className="placeholder-icon" />
+            <a href="/contact">
+              [[Reach out for podcast guest opportunities!]]
+            </a>
+          </h3>
+
+          <div className="patreon">
+            <svg className="patreon" viewBox="0 0 436 476">
+              <path d="M436 143c-.084-60.778-47.57-110.591-103.285-128.565C263.528-7.884 172.279-4.649 106.214 26.424 26.142 64.089.988 146.596.051 228.883c-.77 67.653 6.004 245.841 106.83 247.11 74.917.948 86.072-95.279 120.737-141.623 24.662-32.972 56.417-42.285 95.507-51.929C390.309 265.865 436.097 213.011 436 143Z"></path>
+            </svg>
+            <h4>Support me Cancel Me, Daddy on Patreon!</h4>
           </div>
+
           <div className="podcast-links">
             <h5>Listen now on</h5>
             <div>
               <a>Apple Podcasts</a>
               <a>Spotify</a>
+              <a>YouTube</a>
               <a>Pocket Casts</a>
               <a>iHeartRadio</a>
               <a>AntennaPod</a>
@@ -36,6 +48,16 @@ export default function Podcasts() {
               <a>RSS Radio</a>
             </div>
           </div>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SwsIwth0h0w?si=Z1DkMjsA_CMuXmPC"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+
           {/* <img src="/pods.png" /> */}
           <br />
 

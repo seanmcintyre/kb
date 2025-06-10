@@ -3,32 +3,43 @@ import "./contact.css";
 
 export default function Contact() {
   return (
-    <Page className="contact" title="Contact">
+    <Page
+      className="contact"
+      title="Contact"
+      // description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolores accusantium sint sit? Ex eaque et id repudiandae sed soluta!"
+    >
       <main>
-        <header>
-          {/* <h1>Contact</h1> */}
-          {/* <h4>email (link to open user's pref email)</h4> */}
-          {/* <img className="headshot" src="/portfolio.jpg" /> */}
-        </header>
-        <br />
-        <br />
         <section>
-          <h4>email - katelynburnswrites@gmail.com</h4>
-          <br />
-          <h4>email - cancelmedaddy@gmail.com</h4>
-          <br />
-          {/* (link to open user's pref email) */}
-          <h4>signal - kab.80</h4>
-          <br />
-          <h4>
-            <a href="https://bsky.app/profile/katelynburns.com">
-              bluesky
-            </a>
-          </h4>
-          <br />
-          <h4>
-            <a href="https://www.patreon.com/katelynburns">patreon</a>
-          </h4>
+          {/* <h5>kab.80<span>signal</span></h5> */}
+          <div>
+            <div className="placeholder-icon" />
+            <h5>
+              {/* (link to open user's pref email) */}
+              katelynburnswrites@gmail.com
+              <span>email</span>
+            </h5>
+          </div>
+          <div>
+            <div className="placeholder-icon" />
+            <h5>
+              cancelmedaddy@gmail.com
+              <span>email</span>
+            </h5>
+          </div>
+          <div>
+            <div className="placeholder-icon" />
+            <h5>
+              @katelynburns.com
+              <span>bluesky</span>
+            </h5>
+          </div>
+          <div>
+            <div className="placeholder-icon" />
+            <h5>
+              @katelynburns
+              <span>patreon</span>
+            </h5>
+          </div>
           <br />
         </section>
       </main>

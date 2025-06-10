@@ -13,8 +13,8 @@ export function Page({
       <main>
         <header>
           <h1>{title}</h1>
-          <h2>{subtitle}</h2>
-          <h3>{description}</h3>
+          {subtitle && <h2>{subtitle}</h2>}
+          {description && <h3>{description}</h3>}
         </header>
         {children}
       </main>

@@ -9,9 +9,13 @@ export default function Engagements() {
     <Page
       className="engagements"
       title="Engagements"
+      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolores accusantium sint sit? Ex eaque et id repudiandae sed soluta! Nostrum dolores accusantium sint sit? Ex eaque et id repudiandae."
       subtitle="Have Katelyn speak at your next event!">
       <>
         <section>
+          <h3 className="llink">[[link to contact page]]</h3>
+          <br />
+          <br />
           <h4>Prior Speaking Engagements</h4>
           <h5>
             Land O' Lakes
